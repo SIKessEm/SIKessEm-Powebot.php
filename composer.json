@@ -31,6 +31,7 @@
         "wiki": "https://github.com/SIKessEm/SIKessEm-Powebot.php/wiki"
     },
     "config": {
+        "bin-dir": "bin",
         "vendor-dir": "lib",
         "preferred-install": "dist",
         "sort-packages": true
