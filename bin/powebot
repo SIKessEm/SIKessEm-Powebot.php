@@ -1,2 +1,15 @@
 #!/usr/bin/env php
 <?php
+if($argc && $argv)
+{
+    $cmd_name = 'powebot';
+    $call_cmd = $argv[0];
+
+    $name_pos = stripos($call_cmd, $cmd_name);
+    $base_len = strlen($call_cmd) - strlen($cmd_name);
+
+    $cmd_base = ($name_pos === $base_len) ? substr($call_cmd, 0, $base_len) : '';
+    $root_dir = getcwd() . DIRECTORY_SEPARATOR . str_replace(['/', '\\'], DIRECTORY_SEPARATOR, $cmd_base);
+
+    die('Welcome to Powebot !');
+}
