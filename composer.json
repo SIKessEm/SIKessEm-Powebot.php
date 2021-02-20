@@ -1,11 +1,14 @@
 {
-    "name": "sikessem/cuseng",
-    "description": "Custom Search Engine",
+    "name": "sikessem/powebot",
+    "description": "Powerfull Web robot and custom search engine",
     "type": "project",
     "require": {
-        "php": ">=7.4"
+        "php": ">=7.2"
     },
     "keywords": [
+        "powebot",
+        "robot",
+        "bot",
         "search-engine",
         "sikessem",
         "ske"
@@ -20,11 +23,11 @@
     ],
     "autoload": {
         "psr-4": {
-            "Ske\\Cuseng\\": "lib/addons/src/"
+            "Ske\\Powebot\\": ""
         }
     },
     "config": {
-        "vendor-dir": "lib/vendor",
+        "vendor-dir": "lib",
         "preferred-install": "dist",
         "sort-packages": true
     },
