@@ -26,6 +26,10 @@
             "Ske\\Powebot\\": ""
         }
     },
+    "support": {
+        "source": "https://github.com/SIKessEm/SIKessEm-Powebot.php",
+        "wiki": "https://github.com/SIKessEm/SIKessEm-Powebot.php/wiki"
+    },
     "config": {
         "vendor-dir": "lib",
         "preferred-install": "dist",
